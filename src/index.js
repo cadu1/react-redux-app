@@ -1,7 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
+import FirstComponent from './components/FirstComponent'
 
 render(
-    <h1>Teste</h1>,
+    <div>
+        <FirstComponent></FirstComponent>
+    </div>,
     document.querySelector('[data-app="react"]')
 );
