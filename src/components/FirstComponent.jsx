@@ -1,4 +1,4 @@
 import React from 'react'
 
-export default () =>
-    <h1>First Component</h1>
+export default (props) =>
+    <h1>{props.text}</h1>

@@ -4,7 +4,7 @@ import FirstComponent from './components/FirstComponent'
 
 render(
     <div>
-        <FirstComponent></FirstComponent>
+        <FirstComponent text="Hello"></FirstComponent>
     </div>,
     document.querySelector('[data-app="react"]')
 );
